@@ -4,3 +4,15 @@ class Config:
     TOKEN = ""  
     START_PIC = "" 
     CHAT = ""    
+  "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
